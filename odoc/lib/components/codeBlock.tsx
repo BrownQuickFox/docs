@@ -2,7 +2,7 @@ import React from "react";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import github from "prism-react-renderer/themes/oceanicNext";
 export default ({ children, className }) => {
-  const language = className.replace(/language-/, "");
+  const language = className ? className.replace(/language-/, "") : "default";
   return (
     <Highlight
       {...defaultProps}
