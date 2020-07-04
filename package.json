@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "cd odoc && cd generators && node setup.js && cd ../../ && next dev",
     "build": "cd odoc && cd generators && node setup.js && cd ../../ && next build",
-    "start": "cd odoc && cd generators && node setup.js && cd ../../ && next start"
+    "start": "cd odoc && cd generators && node setup.js && cd ../../ && next start",
+    "generation": "cd odoc && cd generators && node setup.js && cd ../../"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.6",
